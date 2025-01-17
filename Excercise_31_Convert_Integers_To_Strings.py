@@ -1,6 +1,6 @@
 def convert_int_to_str(number):
     if number == 0:
-        return 0
+        return '0'
 
     if number < 0:
         number_is_negative = True
