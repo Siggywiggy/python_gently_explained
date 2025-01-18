@@ -19,7 +19,7 @@ def convert_int_to_str(number):
     else:
         return number_string[::-1]
 
-
+"""
 print(type(convert_int_to_str(142)))
 print(convert_int_to_str(20567))
 for i in range(-10000, 10000):
@@ -27,3 +27,4 @@ for i in range(-10000, 10000):
     print(convert_int_to_str(i))
     assert str(i) == convert_int_to_str(i)
     # assert convert_int_to_str(i) == str(i)
+"""
