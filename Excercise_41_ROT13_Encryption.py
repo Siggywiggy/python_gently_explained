@@ -13,8 +13,8 @@ def rot13(input_string):
         letter_is_uppercase = input_string[x].isupper()
         # get the letters current index
         old_index = alphabet.find(input_string[x].lower())
-        # add 13 to the current index and use % 25 to "wrap around" to start
-        # if the new index is larger then the length of alphabet
+        # add 13 to the current index and use % 26 to "wrap around" to start
+        # if the new index is larger than the length of alphabet
         new_index = (old_index + 13) % 26
         # if letter was uppercase, append uppercase letter
         if letter_is_uppercase:
